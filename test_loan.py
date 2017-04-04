@@ -9,6 +9,9 @@ class Test(unittest.TestCase):
     def test_it_does_not_take_more_than_one_year(self):
         self.assertEquals(loan(10000, 12, 14), "Invalid")
 
+    def some_funny_test(self):
+        self.assertEquals(loan(10000, 12, 14), "Invalid")
+
 
 if __name__ == '__main__':
     unittest.main()
